@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1.4em;
+  border-radius: 1em;
+  background-color: #d80707;
+}
+
+.background-container {
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 0 3em;
+  margin: auto;
+  border: 1em;
+  height: 25em;
+}
+
+.form-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+
+  grid-template-areas: 'content form-input';
+}
+
+.form-card {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  height: 400px;
+  background-color: #353232;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  margin: 20px 10px;
+  padding: 20px;
+  z-index: 100;
+}
+
+input {
+  width: 90%;
+  padding: 0.3em;
+  border-radius: 0.6em;
+  color: #979595;
+  background-color: #333;
+  margin: 0.8em;
+}
+
+input[type='text'];
+input[type='Email'];
+input[type='number']{
+  border: none;
+  border-bottom: 2px solid #979595;
+}
+
+h1 {
+  border: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #c00707;
+}
+
+.Submit {
+  color: #c00707;
+  padding: 0.3em;
+  margin: 0.2em 1em;
+  width: 30%;
+  /* border-radius: 0.5em; */
+  background-color: #333;
+}
+
+.Cancel {
+  color: #c00707;
+  padding: 0.3em;
+  margin: 0.2em 1em;
+  width: 30%;
+  /* border-radius: 0.5em; */
+  background-color: #333;
+}
