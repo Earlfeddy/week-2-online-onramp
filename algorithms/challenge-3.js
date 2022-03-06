@@ -1,3 +1,10 @@
-function increment(arr, value) {}
+function increment(arr, value) {
+  const result = arr.map((num) => {
+    return {
+      ["val"]: (num.val += value)
+    };
+  });
+  return result;
+}
 
-module.exports = increment
+module.exports = increment;
